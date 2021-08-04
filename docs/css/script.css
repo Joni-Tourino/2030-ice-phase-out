@@ -3,6 +3,7 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
+  90deg;
 }
 
 
@@ -15,7 +16,7 @@ html, body {
   background-size: cover;
 }
 .bg2 {
-  background-image: url("/2030-ice-phase-out/images/image-left.jpg");
+  background-image: url("https://joni-tourino.github.io/2030-ice-phase-out/images/image-left.jpg");
   height: 50%;
 
   background-position: center;
