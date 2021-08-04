@@ -15,7 +15,7 @@ html, body {
   background-size: cover;
 }
 .bg2 {
-  background-image: url("https://joni-tourino.github.io/2030-ice-phase-out/images/image-left.jpg");
+  background-image: url("../images/image-left.jpg");
   height: 50%;
 
   background-position: center;
