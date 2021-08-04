@@ -35,7 +35,7 @@ html, body {
   font: normal 5.10em/150px Lato, Montserrat, sans-serif;
   vertical-align: middle;
   text-align: center;
-  background-image: url(../images/image-right.jpg);
+  background-image: url(/images/image-right.jpg);
   background-repeat: no-repeat;
   background-position: right center;
   background-color: #fff;
