@@ -32,7 +32,7 @@ html, body {
   left: 0;
   right: 50%;
 
-  font: normal 5.10em/150px 'Capital TT', Arial, Helvetica, sans-serif;
+  font: normal 5.10em/150px Lato, Montserrat, sans-serif;
   vertical-align: middle;
   text-align: center;
   background-image: url(../images/image-right.jpg);
@@ -45,7 +45,7 @@ html, body {
   left: 50%;
   right: 0;
 
-  font: normal 5.10em/150px 'Capital TT', Arial, Helvetica, sans-serif;
+  font: normal 5.10em/150px Lato, Montserrat, sans-serif;
   vertical-align: middle;
   text-align: center;
   background-image: url(../images/image-left.jpg);
