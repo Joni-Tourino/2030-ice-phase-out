@@ -35,7 +35,7 @@ html, body {
   font: normal 5.10em/150px 'Capital TT', Arial, Helvetica, sans-serif;
   vertical-align: middle;
   text-align: center;
-  background-image: url(../images/menuchoiceverticalsplit.jpg);
+  background-image: url(../images/image-right.jpg);
   background-repeat: no-repeat;
   background-position: right center;
   background-color: #fff;
@@ -48,7 +48,7 @@ html, body {
   font: normal 5.10em/150px 'Capital TT', Arial, Helvetica, sans-serif;
   vertical-align: middle;
   text-align: center;
-  background-image: url(../images/menuchoiceverticalsplit.jpg);
+  background-image: url(../images/image-left.jpg);
   background-repeat: no-repeat;
   background-color: #fff;
 }
