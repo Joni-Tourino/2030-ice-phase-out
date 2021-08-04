@@ -7,7 +7,7 @@ html, body {
 
 
 .bg {
-  background-image: url("/images/image-right.jpg");
+  background-image: url("images/image-right.jpg");
   height: 50%;
 
   background-position: center;
@@ -15,7 +15,7 @@ html, body {
   background-size: cover;
 }
 .bg2 {
-  background-image: url("/images/image-left.jpg");
+  background-image: url("images/image-left.jpg");
   height: 50%;
 
   background-position: center;
