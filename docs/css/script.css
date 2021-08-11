@@ -69,6 +69,7 @@ p {
 }
 
 .post-heading {
-  color: white;
+  color: #fff;
   font-family: 'Lato', sans-serif;
+  font-size: 2rem;
 }
