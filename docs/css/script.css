@@ -60,6 +60,14 @@ p {
   color: #fff;
   width: fit-content;
 }
+
+.container-hd{
+  width: 500px;
+  margin-top: -50vh;
+  color: #fff;
+  padding: 30px;
+}
+
 .post-heading {
   color: white;
   font-family: 'Lato', sans-serif;
