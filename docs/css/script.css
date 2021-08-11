@@ -43,10 +43,12 @@ p {
 }
 
 .header-img {
+  background: url('img/chargepoint-cardiff.jpg)');
+  background-size: cover;
   position: relative;
   text-align: center;
   color: #fff;
-  height: 50%;
+  font-family: 'Lato', sans-serif;
 }
 
 .byline {
