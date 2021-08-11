@@ -43,7 +43,7 @@ p {
 }
 
 .header-img {
-  background: url('img/chargepoint-cardiff.jpg)');
+  background-image: url("img/chargepoint-cardiff.jpg");
   background-size: cover;
   position: relative;
   text-align: center;
@@ -79,7 +79,7 @@ p {
 .post-subheading {
   color: #fff;
   font-size: 3.5rem;
-  
+
 }
 
 /* article content */
