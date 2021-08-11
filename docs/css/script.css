@@ -66,6 +66,7 @@ p {
   margin-top: -50vh;
   color: #fff;
   padding: 30px;
+  vertical-align: middle;
 }
 
 .post-heading {
