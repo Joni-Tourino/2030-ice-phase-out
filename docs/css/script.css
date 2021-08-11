@@ -43,7 +43,7 @@ p {
 }
 
 .header-img {
-  background-image: url("img/chargepoint-cardiff.jpg") no-repeat center;
+  background-image: url("img/chargepoint-cardiff.jpg");
   background-size: cover;
   height: 100vh;
   width: 100vw;
