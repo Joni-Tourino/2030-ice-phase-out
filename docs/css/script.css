@@ -27,7 +27,7 @@ p {
 }
 
 .bg {
-  background-image: url("https://joni-tourino.github.io/2030-ice-phase-out/images/image-right.jpg");
+  background-image: url("img/image-right.jpg");
   height: 50%;
 
   background-position: left center;
@@ -36,7 +36,7 @@ p {
 }
 
 .bg2 {
-  background-image: url("https://joni-tourino.github.io/2030-ice-phase-out/images/image-left.jpg");
+  background-image: url("img/image-left.jpg");
   height: 50%;
 
   background-position: right center;
