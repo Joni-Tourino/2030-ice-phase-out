@@ -48,6 +48,7 @@ p {
   position: relative;
   text-align: center;
   color: white;
+  height: 50%;
 }
 
 .byline {
