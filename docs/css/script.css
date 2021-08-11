@@ -64,17 +64,22 @@ p {
 }
 
 .container-hd{
-  width: 500px;
-  margin-top: -50vh;
-  color: #fff;
-  padding: 30px;
+  display: table-cell;
+  padding: 0.625rem;
   vertical-align: middle;
 }
 
 .post-heading {
   color: #fff;
   font-family: 'Lato', sans-serif;
-  font-size: 2rem;
+  font-size: 12rem;
+  margin: 2rem;
+}
+
+.post-subheading {
+  color: #fff;
+  font-size: 3.5rem;
+  
 }
 
 /* article content */
