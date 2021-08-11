@@ -43,17 +43,18 @@ p {
 }
 
 .header-img {
-  background-image: url("img/chargepoint-cardiff.jpg");
+  background-image: url("img/chargepoint-cardiff.jpg") no-repeat center;
   background-size: cover;
-  position: relative;
+  height: 100vh;
+  width: 100vw;
   text-align: center;
+  display: table;
   color: #fff;
   font-family: 'Lato', sans-serif;
 }
 
 .byline {
   display: inline-block;
-  padding-top: 0px;
   font-family: 'Lato', sans-serif;
   font-size: 0.8rem;
   font-weight: 300;
@@ -78,8 +79,9 @@ p {
 
 .post-subheading {
   color: #fff;
+  font-family: 'Lato', sans-serif;
   font-size: 3.5rem;
-
+  line-height: 1.5rem;
 }
 
 /* article content */
