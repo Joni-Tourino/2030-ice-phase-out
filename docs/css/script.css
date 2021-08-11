@@ -13,7 +13,6 @@ html, body {
   background-position: left center;
   background-repeat: no-repeat;
   background-size: cover;
-  transform: rotate(90deg);
 }
 .bg2 {
   background-image: url("https://joni-tourino.github.io/2030-ice-phase-out/images/image-left.jpg");
@@ -22,5 +21,4 @@ html, body {
   background-position: right center;
   background-repeat: no-repeat;
   background-size: cover;
-  transform: rotate(90deg);
 }
