@@ -126,6 +126,7 @@ p {
 }
 
 .scroll__graphic .chart {
+  background: url('https://datawrapper.dwcdn.net/pGox9/')
   position: absolute;
   right: 1rem;
   top: 50%;
