@@ -133,3 +133,17 @@ p {
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
+.scroll__text {
+  padding: 0 1rem;
+  max-width: 30rem;
+}
+
+.step {
+  opacity: 0;
+  padding: 1rem;
+}
+
+.step.is-active {
+  opacity: 1;
+}
