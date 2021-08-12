@@ -1,6 +1,7 @@
 /* Article style */
 
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -25,7 +26,6 @@ p {
   line-height: 1.953rem;
 }
 
-
 .bg {
   background-image: url("img/image-right.jpg");
   height: 50%;
@@ -48,12 +48,12 @@ p {
   width: 100vw;
   display: table;
   color: #fff;
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   text-align: center;
 }
 
-.container-hd{
-  background-image: url('https://joni-tourino.github.io/2030-ice-phase-out/img/chargepoint-cardiff.jpg');
+.container-hd {
+  background-image: url("https://joni-tourino.github.io/2030-ice-phase-out/img/chargepoint-cardiff.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -92,17 +92,23 @@ p {
 /* article content */
 
 .content {
-    margin: 0 auto;
-    padding: 0 2em;
-    max-width: 800px;
-    margin-bottom: 50px;
-    line-height: 1.6em;
+  margin: 0 auto;
+  padding: 0 2em;
+  max-width: 800px;
+  margin-bottom: 50px;
+  line-height: 1.6em;
 }
 
 /* scrolly */
 
 #scroll {
   position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding: 0.625rem;
+  vertical-align: middle;
 }
 
 .scroll__graphic {
@@ -126,7 +132,6 @@ p {
 }
 
 .scroll__graphic .chart {
-  background: url('https://datawrapper.dwcdn.net/pGox9/');
   position: absolute;
   right: 1rem;
   top: 50%;

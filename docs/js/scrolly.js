@@ -49,7 +49,6 @@ function handleStepEnter(response) {
 
 	// update graphic based on step here
 	var stepData = $step.attr('data-step')
-	...
 }
 
 function handleContainerEnter(response) {
@@ -67,9 +66,6 @@ function handleContainerExit(response) {
 	$graphic.classed('is-fixed', false);
 	$graphic.classed('is-bottom', response.direction === 'down');
 }
-
-// kick-off code to run once on load
-function init() {...}
 
 // start it up
 init();
