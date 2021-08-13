@@ -24,6 +24,7 @@
 <link rel="stylesheet" href="css/script.css">
 <script src="https://d3js.org/d3.v7.min.js"></script>
 <script type="module" src="./js/scrolly.js"></script>
+<script type="module" src="./js/button.js"></script>
 
 </head>
 
@@ -60,7 +61,19 @@
         </script>
 
         <p>Out of 374 local authorities, only the Isles of Scilly still lacks a public charging point. Westminster is leading the count with 1059 charging devices, followed by Wandsworth with 603 and Hammersmith and Fulham with 554. Ten local authorities still have less than ten charging devices.  Back in October 2019, the earliest data sources available, less than a third (103) of local authorities had less than 10 charging points, with Barrow-in-Furness being the other one with none.</p>
-
+        <br>
+        <button class="button button1">July 2021</button>
+        <iframe title="The UK has on average 86 public charging devices per 1,000 EVs licensed" aria-label="Map" id="datawrapper-chart-lWlZQ" src="https://datawrapper.dwcdn.net/lWlZQ/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1021"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script>
+        <button class="button button2" onclick="myButton2()">July 2020</button>
+        <div id="divbutton2">
+          <iframe title="Pembrokeshire and Na h-Eileanan Siar had the highest rate in the UK in July 2020" aria-label="Map" id="datawrapper-chart-U4Ma6" src="https://datawrapper.dwcdn.net/U4Ma6/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="829"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+          </script>
+          </div>
+        <button class="button button3">October 2019 </button>
+        <iframe title="Back in October 2019, two LAs were lacking a single charging device" aria-label="Map" id="datawrapper-chart-pGox9" src="https://datawrapper.dwcdn.net/pGox9/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="829"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        </script>
+        <p>Simple text</p>
         <iframe title="Local authorities with less than 10 charging devices" aria-label="table" id="datawrapper-chart-3pfhw" src="https://datawrapper.dwcdn.net/3pfhw/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="570"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
         </script>
 
@@ -114,6 +127,15 @@
 	    </div>
       </section>
       </div>
+      <script>
+        function myButton2() {
+            var x = document.getElementById("divbutton2");
+            if (x.style.display === "none") {
+              x.style.display = "block";
+            } else {
+              x.style.display = "none";
+            }
+          } </script>
   </article>
 
 	<!-- Footer -->
