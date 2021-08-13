@@ -95,7 +95,7 @@ p {
   margin: 0 auto;
   padding: 0 2em;
   max-width: 800px;
-  margin-bottom: 50px;
+  margin-bottom: 500px;
   line-height: 1.6em;
 }
 
@@ -103,16 +103,23 @@ p {
 
 #scroll {
   position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+}
+
+.chart {
+  margin-top: auto;
+  padding: 0 2em;
+  max-width: 800px;
+  margin-bottom: 50px;
+  line-height: 1.6em;
+}
+
+.filler {
+  height: 20rem;
   text-align: center;
-  padding: 0.625rem;
-  vertical-align: middle;
 }
 
 .scroll__graphic {
-  position: sticky;
+  position: absolute;
   top: 0;
   left: 0;
   bottom: auto;

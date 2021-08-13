@@ -5,6 +5,21 @@ var $chart = graphic.select('.chart');
 var $text = container.select('.scroll__text');
 var $step = text.selectAll('.step');
 
+
+// enterView({
+// 	selector: stepSel.nodes(),
+// 	offset: 0.5,
+// 	enter: el => {
+// 		const index = +d3.select(el).attr('data-index');
+// 		updateChart(index);
+// 	},
+// 	exit: el => {
+// 		let index = +d3.select(el).attr('data-index');
+// 		index = Math.max(0, index - 1);
+// 		updateChart(index);
+// 	}
+// });
+
 // initialize the scrollama
 var scroller = scrollama();
 
@@ -67,8 +82,7 @@ function handleContainerExit(response) {
 	$graphic.classed('is-bottom', response.direction === 'down');
 }
 
-// start it up
-init();
+
 
 function init() {
 	// 1. call a resize on load to update width/height/position of elements
@@ -92,3 +106,6 @@ function init() {
 	// setup resize event
 	window.addEventListener('resize', handleResize);
 }
+
+// start it up
+init();
