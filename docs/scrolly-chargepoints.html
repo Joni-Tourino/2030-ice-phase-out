@@ -13,7 +13,7 @@
 
   <meta name="twitter:site" content="@JoniEskobar">
 
-  <title>There are now 25,000 public chargepoints in the UK - is it enough?</title>
+  <title>There are now 25,000 public chargepoints in the UK - is it enough to stop "range-anxiety"?</title>
 
 <!-- Style  CSS -->
 
@@ -23,8 +23,10 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="css/script.css">
 <script src="https://d3js.org/d3.v7.min.js"></script>
-<script type="module" src="./js/scrolly.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.slim.min.js"></script>
 <script type="module" src="./js/button.js"></script>
+
 
 </head>
 
@@ -35,7 +37,7 @@
     <header class="header-img">
       <div class="container-hd">
         <h1 class="post-heading">The UK has reached 25,000 chargepoints for electric vehicles</h1>
-          <h2 class="post-subheading">Is it enough?</h2>
+          <h2 class="post-subheading">is it enough to stop "range-anxiety"?</h2>
             <div class="byline">
               <hr>By <a href="https://twitter.com/JoniEskobar">Jonathan Touriño Jacobo</a> - X August, 2021
             </div>
@@ -49,93 +51,37 @@
   <div class="content">
 
   <br>
-	      <h2>The country needs to install more, and faster</h2>
-
         <p>Earlier this week the Secretary of State for Transport, Grant Shapps, announced that the UK reached 25,000 public EV chargepoints in the UK. He also announced that the Government was working on a chargepoint design as iconic as the red post box that is set to be unveiled at COP26 in November with a launch in 2022.</p><br>
 
         <blockquote class="twitter-tweet tw-align-center"><p lang="en" dir="ltr">We&#39;ve hit a major milestone, with 25,000 public EV chargepoints now available across the UK🔌🚗<br> <br>I’m pleased to announce the appointment of <a href="https://twitter.com/RCA?ref_src=twsrc%5Etfw">@RCA</a> &amp; <a href="https://twitter.com/PA_Consulting?ref_src=twsrc%5Etfw">@PA_Consulting</a> to design an iconic EV chargepoint that could become as recognisable as the red post box, London bus, or black cab👇 <a href="https://t.co/jAWHojvmuf">pic.twitter.com/jAWHojvmuf</a></p>&mdash; Rt Hon Grant Shapps MP (@grantshapps) <a href="https://twitter.com/grantshapps/status/1424752899599515649?ref_src=twsrc%5Etfw">August 9, 2021</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         <br>
+        <p>Yet, in the past days, Allegra Stratton (<a href="https://www.thetimes.co.uk/article/ill-stick-with-diesel-says-no-10-climate-spokeswoman-nhg8kzhmm">spokesperson for the COP26</a>) and Michael Fabricant (<a href="https://lichfieldlive.co.uk/2021/08/12/lichfield-mp-says-range-anxiety-means-he-wouldnt-consider-driving-an-electric-car/">Lichfield</a>'s MP) have both argued that they'd prefer to stay with their diesel vehicles arguing "range-anxiety" and the long times for charging an electric vehicle.</p>
         <h3>Where are they located?</h3>
+        <p>Out of 374 local authorities, only the Isles of Scilly still lacks a public charging point. Westminster is leading the count with 1,059 charging devices, followed by Wandsworth with 603 and Hammersmith and Fulham with 554. Ten local authorities still have less than ten charging devices.  Back in October 2019, the earliest data sources available, less than a third (103) of local authorities had less than 10 charging points, with Barrow-in-Furness being the other one with none.</p>
         <br>
-        <iframe title="The UK has on average 85 public charging devices per 1,000 EVs licensed" aria-label="Map" id="datawrapper-chart-lWlZQ" src="https://datawrapper.dwcdn.net/lWlZQ/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="863"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
-        </script>
+        </div>
 
-        <p>Out of 374 local authorities, only the Isles of Scilly still lacks a public charging point. Westminster is leading the count with 1059 charging devices, followed by Wandsworth with 603 and Hammersmith and Fulham with 554. Ten local authorities still have less than ten charging devices.  Back in October 2019, the earliest data sources available, less than a third (103) of local authorities had less than 10 charging points, with Barrow-in-Furness being the other one with none.</p>
-        <br>
-        <button class="button button1">July 2021</button>
-        <iframe title="The UK has on average 86 public charging devices per 1,000 EVs licensed" aria-label="Map" id="datawrapper-chart-lWlZQ" src="https://datawrapper.dwcdn.net/lWlZQ/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1021"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
-        </script>
-        <button class="button button2" onclick="myButton2()">July 2020</button>
-        <div id="divbutton2">
-          <iframe title="Pembrokeshire and Na h-Eileanan Siar had the highest rate in the UK in July 2020" aria-label="Map" id="datawrapper-chart-U4Ma6" src="https://datawrapper.dwcdn.net/U4Ma6/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="829"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
-          </script>
+ <!-- Button Datawrapper -->
+
+<div class="content">
+            <button type="button" class="button button1"  data-src="https://datawrapper.dwcdn.net/lWlZQ/">July 2021</button>
+            <button type="button" class="button button2"  data-src="https://datawrapper.dwcdn.net/U4Ma6/">July 2020</button>
+            <button type="button" class="button button3"  data-src="https://datawrapper.dwcdn.net/pGox9/">October 2019</button>
+            <br>
+              <iframe id="iframe" src="https://datawrapper.dwcdn.net/lWlZQ/" style="width: 0; min-width: 100% !important; border: none;" height="829" ></iframe>
           </div>
-        <button class="button button3">October 2019 </button>
-        <iframe title="Back in October 2019, two LAs were lacking a single charging device" aria-label="Map" id="datawrapper-chart-pGox9" src="https://datawrapper.dwcdn.net/pGox9/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="829"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
-        </script>
+        <div class="content">
         <p>Simple text</p>
         <iframe title="Local authorities with less than 10 charging devices" aria-label="table" id="datawrapper-chart-3pfhw" src="https://datawrapper.dwcdn.net/3pfhw/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="570"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
         </script>
 
         <p>317 local authorities still have less than 100 public charging points. And 262 of them have less than one charging device for 10 electric vehicles. Pembrokeshire has the best rate in the UK with almost two vehicles per charging device.</p>
+        <p>You can search in the table below for your local authority or any other in the UK and see how many public charging points they have, as well as how many vehicles licensed.</p>
 
-        <iframe title="Number of charging devices and vehicles by local authority" aria-label="table" id="datawrapper-chart-IwELW" src="https://datawrapper.dwcdn.net/IwELW/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1051"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+        <iframe title="Number of public charging devices and vehicles licensed by local authority" aria-label="table" id="datawrapper-chart-IwELW" src="https://datawrapper.dwcdn.net/IwELW/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="1077"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
         </script>
+        </div>
     </div>
-
-      <!-- Scrollytell -->
-
-      <!-- <div class="content">
-<section class='filler'>
-  <p>
-    At the end of the third quarter of 2019, the UK had 15,215 charging points. Two local authorities (Isles of Scilly and Barrow-in-Furness) didn't have a single one.
-  </p>
-</section>
-      </div> -->
-        <!-- sticky graphic -->
-
-      <div class="content">
-			<section id='scroll'>
-
-	<!--  graphic container  -->
-
-	    <div class='scroll__graphic'>
-
-		<!--   actual graphic/chart   -->
-
-		    <div class='chart'>
-			    <iframe title="Data from 2019 Q3" aria-label="Map" id="datawrapper-chart-pGox9" src="https://datawrapper.dwcdn.net/pGox9/" scrolling="yes" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="767"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
-          </script><p>WHY!!! At the end of the third quarter of 2019, the UK had 15,215 charging points. Two local authorities (Isles of Scilly and Barrow-in-Furness) didn't have a single one.</p>
-		    </div>
-	    </div>
-
-	<!--  step/text container  -->
-	    <div class='scroll__text'>
-		    <div class='step' data-step='1'>
-			    <iframe title="Data from 2019 Q3" aria-label="Map" id="datawrapper-chart-pGox9" src="https://datawrapper.dwcdn.net/pGox9/" scrolling="yes" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="767"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
-          </script><p>Why why why!!! At the end of the third quarter of 2019, the UK had 15,215 charging points. Two local authorities (Isles of Scilly and Barrow-in-Furness) didn't have a single one.</p>
-		    </div>
-		    <div class='step' data-step='2'>
-			    <p>Meanwhile, 58 local authorities had less than 10 charging points.</p>
-		    </div>
-		    <div class='step' data-step='3'>
-			    <p>STEP 3</p>
-		    </div>
-		    <div class='step' data-step='4'>
-			    <p>STEP 4</p>
-		    </div>
-	    </div>
-      </section>
-      </div>
-      <script>
-        function myButton2() {
-            var x = document.getElementById("divbutton2");
-            if (x.style.display === "none") {
-              x.style.display = "block";
-            } else {
-              x.style.display = "none";
-            }
-          } </script>
   </article>
 
 	<!-- Footer -->
@@ -145,9 +91,9 @@
 		<a href="https://twitter.com/JoniEskobar"><i class="fa fa-twitter w3-hover-opacity"></i></a>
 		<a href="https://www.instagram.com/jonieskobar/"><i class="fa fa-instagram w3-hover-opacity"></i></a>
 		<a href="https://www.linkedin.com/in/jonathantourino"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
-		<a href="https://github.com/Joni-Tourino/FamitsuSalesData"><i class="fa fa-github w3-hover-opacity"></i></a>
+		<a href="https://github.com/Joni-Tourino/2030-ice-phase-out"><i class="fa fa-github w3-hover-opacity"></i></a>
 </div>
- <p>Created with <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a> and published in 2021 by Jonathan Touriño Jacobo</p>
+ <p>Published in 2021 by Jonathan Touriño Jacobo</p>
 
 </footer>
 
