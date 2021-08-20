@@ -68,6 +68,18 @@ p {
   vertical-align: middle;
 }
 
+.container-itw {
+  background-image: url("https://joni-tourino.github.io/2030-ice-phase-out/img/Gill Nowell_Kia eNiro.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  display: table-cell;
+  padding: 0.625rem;
+  vertical-align: middle;
+}
+
 .container-hd h1 {
   font-size: 2.5rem;
   margin: 2rem;
@@ -94,6 +106,10 @@ p {
 }
 
 /* article content */
+
+abbr {
+  position: relative;
+}
 
 .content {
   margin: 0 auto;
