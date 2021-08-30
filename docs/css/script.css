@@ -58,6 +58,20 @@ p {
   vertical-align: middle;
 }
 
+.coventry-header {
+  background-image: url("https://joni-tourino.github.io/2030-ice-phase-out/img/Coventry-by-Georgi-Kyurpanov.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  display: table-cell;
+  color: #fff;
+  padding: 0.625rem;
+  vertical-align: middle;
+}
+
 .credit {
   position: absolute;
   bottom: 8px;
