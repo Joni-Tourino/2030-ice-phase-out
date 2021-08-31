@@ -30,6 +30,14 @@ p {
   line-height: 1.953rem;
 }
 
+p.dashed {
+  border-bottom: 3px dashed;
+  width: 25%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
 .bg {
   background-image: url("https://joni-tourino.github.io/2030-ice-phase-out/img/index-evclicks.jpeg");
   height: 50%;
@@ -87,7 +95,6 @@ p {
 
 img {
   display: inline-block;
-  height: fit-content;
   max-width: 800px;
   position: relative;
   align-content: center;
