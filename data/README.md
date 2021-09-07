@@ -2,7 +2,7 @@
 
 Here you can access the data files or links to charts/maps (made either with Datawrapper or Flourish) for the stories I've written in the website.
 
-# <a href="https://joni-tourino.github.io/2030-ice-phase-out/25000-public-charge-points-more-to-come.html target="_blank">25,000 EV charging points in the UK</a>
+# <a href="https://joni-tourino.github.io/2030-ice-phase-out/25000-public-charge-points-more-to-come.html" target="_blank">25,000 EV charging points in the UK</a>
 
 For this story I used a <a href="https://datawrapper.dwcdn.net/IwELW/" target="_blank">table</a> where you can search any local authority in the UK with information about their EV chargers, EVs licensed and the rate of chargers per 1,000 vehicles licensed.
 I also created three different maps that shows the evolution of the rate of EV charging points per 1,000 EVs licensed for <a href="https://datawrapper.dwcdn.net/lWlZQ/" target="_blank">July 2021</a>, <a href="https://datawrapper.dwcdn.net/U4Ma6/" target="_blank">July 2020</a> and <a href="https://datawrapper.dwcdn.net/pGox9/" target="_blank">October 2019</a> (the Department for Transport only collects data from EV chargepoints since that time).
