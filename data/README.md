@@ -5,7 +5,7 @@ Here you can access the data files or links to charts/maps (made either with Dat
 # 25,000 EV charging points in the UK
 
 For this story I used a <a href="https://datawrapper.dwcdn.net/IwELW/" target="_blank">table</a> where you can search any local authority in the UK with information about their EV chargers, EVs licensed and the rate of chargers per 1,000 vehicles licensed.
-I also created three different maps that shows the evolution of the rate of EV charging points per 1,000 EVs licensed for <a href="https://datawrapper.dwcdn.net/lWlZQ/" target="_blank">July 2021</a>, <a href="https://datawrapper.dwcdn.net/U4Ma6/" target="_blank">July 2020 and <a href="https://datawrapper.dwcdn.net/pGox9/" target="_blank">October 2019</a> (the Department for Transport only collects data from EV chargepoints since that time).
+I also created three different maps that shows the evolution of the rate of EV charging points per 1,000 EVs licensed for <a href="https://datawrapper.dwcdn.net/lWlZQ/" target="_blank">July 2021</a>, <a href="https://datawrapper.dwcdn.net/U4Ma6/" target="_blank">July 2020</a> and <a href="https://datawrapper.dwcdn.net/pGox9/" target="_blank">October 2019</a> (the Department for Transport only collects data from EV chargepoints since that time).
 
 # Coventry leads EV charger devices outside London
 
