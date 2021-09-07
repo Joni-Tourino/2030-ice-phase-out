@@ -248,6 +248,14 @@ abbr {
   line-height: 1.6em;
 }
 
+.border-charger {
+  background-color: lightgray;
+  border-style: solid;
+  border-width: medium;
+  border-radius: 10px;
+  margin-left: -5px;
+  padding-left: 5px;
+}
 /* scrolly */
 
 /* #scroll {
