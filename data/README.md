@@ -9,7 +9,7 @@ I also created three different maps that shows the evolution of the rate of EV c
 
 # Coventry leads EV charger devices outside London
 
-For that article I created a <a href="https://datawrapper.dwcdn.net/OAiq2/1/" target="_blank">ranking table</a> with only the local authorities with the highest number of public EV chargers insteaf of reusing the table from the 25,000 UK charging points one. This way you can directly see which areas are doing best in the UK.
+For that article I created a <a href="https://datawrapper.dwcdn.net/OAiq2/1/" target="_blank">ranking table</a> with only the local authorities with the highest number of public EV chargers instead of reusing the table from the 25,000 UK charging points one. This way you can directly see which areas are doing best in the UK.
 
 Since most of the chargers that have been installed in Coventry came from a Government grant I also made a <a href="https://public.flourish.studio/visualisation/7078676/" target="_blank">chart</a> showing which regions in the UK installed the most through that scheme (ORCS).
 
